@@ -1,0 +1,18 @@
+//
+//  TestDebugConfig.xcconfig
+//  aaa
+//
+//  Created by 陈磊 on 2018/6/22.
+//  Copyright © 2018年 collection. All rights reserved.
+//
+
+#include "Pods/Target Support Files/Pods-aaa/Pods-aaa.testdebug.xcconfig"
+
+//网络请求baseurl
+TKSeverUrl = @"http:\/\/sspuat.life.taikang.com"
+
+TKBaseUrl = @"http:\/\/isaleuat.life.taikang.com\/isales\/"
+
+isTKProduction = NO
+
+#include "CommonConfig.xcconfig"

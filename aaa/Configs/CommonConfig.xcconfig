@@ -1,0 +1,12 @@
+//
+//  CommonConfig.xcconfig
+//  aaa
+//
+//  Created by 陈磊 on 2018/6/22.
+//  Copyright © 2018年 collection. All rights reserved.
+//
+
+
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) TKSeverUrl='$(TKSeverUrl)' TKBaseUrl='$(TKBaseUrl)' isTKProduction='$(isTKProduction)' COCOAPODS=1
+
+
